@@ -1,0 +1,10 @@
+project_id = "hari-portfolio"
+[functions.submit-inquiry]
+verify_jwt = false
+[functions.resolve-media]
+verify_jwt = false
+[functions.manage-media]
+verify_jwt = false
+[functions.manage-members]
+verify_jwt = false
+# Functions validate bearer tokens with auth.getUser; public endpoints enforce their own checks.

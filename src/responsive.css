@@ -1,0 +1,414 @@
+@media (max-width: 1100px) {
+  .public-nav {
+    gap: 18px !important;
+  }
+  .public-nav a {
+    font-size: 8px !important;
+    letter-spacing: 1px !important;
+  }
+  .hero-role {
+    display: none;
+  }
+  .section-heading > div {
+    gap: 15px !important;
+  }
+  .section-heading > div > p {
+    max-width: 270px !important;
+  }
+  .hero {
+    height: 790px !important;
+  }
+  .hero-status {
+    max-width: 270px;
+  }
+  .project-meta {
+    flex-direction: column;
+    gap: 4px !important;
+  }
+  .service-grid {
+    gap: 25px !important;
+  }
+  .footer-top {
+    gap: 30px !important;
+  }
+  .studio-grid {
+    gap: 7% !important;
+  }
+  .contact-grid {
+    gap: 6% !important;
+  }
+}
+@media (max-width: 760px) {
+  .site-header {
+    height: 64px !important;
+    padding: 0 5% !important;
+  }
+  .wordmark span {
+    font-size: 8px !important;
+    letter-spacing: 2px !important;
+  }
+  .public-nav {
+    display: none !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 64px;
+    background: #f2f2f2;
+    padding: 30px 5%;
+    border-bottom: 1px solid #ccc;
+  }
+  .public-nav.open {
+    display: flex !important;
+    flex-direction: column;
+    gap: 25px !important;
+  }
+  .public-nav a {
+    font-size: 12px !important;
+  }
+  .mobile-menu {
+    display: block !important;
+    padding: 5px;
+  }
+  .header-right > a {
+    font-size: 8px !important;
+    letter-spacing: 1px !important;
+  }
+  .hero {
+    height: 740px !important;
+    min-height: calc(100svh - 64px) !important;
+    max-height: none !important;
+  }
+  .hero-inner {
+    padding: 35px 5% 25px !important;
+  }
+  .hero-meta {
+    font-size: 8px !important;
+    letter-spacing: 1px !important;
+  }
+  .hero-meta > span:last-child {
+    max-width: 155px;
+  }
+  .hero-art {
+    object-position: 62% 50% !important;
+  }
+  .hero-title {
+    margin-top: 85px !important;
+  }
+  .hero h1 {
+    font-size: clamp(88px, 18vw, 140px) !important;
+    max-width: 100% !important;
+  }
+  .hero-number {
+    left: auto !important;
+    right: 3px;
+    top: -30px !important;
+  }
+  .hero-description {
+    max-width: 440px !important;
+    font-size: 14px !important;
+    line-height: 1.8 !important;
+    margin-top: 30px !important;
+    margin-bottom: 35px !important;
+  }
+  .hero-bottom {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 22px !important;
+    padding-top: 23px !important;
+  }
+  .hero-status {
+    max-width: 100%;
+    font-size: 8px !important;
+  }
+  .hero-actions {
+    gap: 9px !important;
+  }
+  .hero-actions a {
+    flex: 1;
+    padding: 16px 12px !important;
+    min-width: 0 !important;
+    gap: 10px !important;
+    font-size: 8px !important;
+    letter-spacing: 1px !important;
+  }
+  .section {
+    padding: 70px 5% !important;
+    scroll-margin-top: 63px !important;
+  }
+  .section-index {
+    font-size: 9px !important;
+    margin-bottom: 24px !important;
+  }
+  .section-heading {
+    gap: 25px !important;
+    align-items: flex-start !important;
+    flex-direction: column;
+    margin-bottom: 28px !important;
+  }
+  .section h2 {
+    font-size: 42px !important;
+  }
+  .section-heading > p,
+  .section-heading > div > p {
+    max-width: 100% !important;
+    font-size: 13px !important;
+  }
+  .section-heading > div {
+    width: 100%;
+    justify-content: space-between !important;
+  }
+  .work-strip {
+    gap: 15px !important;
+  }
+  .work-strip > .project-card {
+    flex-basis: 86% !important;
+  }
+  .work-section {
+    padding-bottom: 35px !important;
+  }
+  .project-caption h3 {
+    font-size: 23px !important;
+  }
+  .project-meta {
+    font-size: 8px !important;
+    letter-spacing: 0.6px !important;
+  }
+  .project-caption p {
+    font-size: 8px !important;
+  }
+  .card-top {
+    inset: 15px 15px auto !important;
+    font-size: 8px !important;
+  }
+  .view-study {
+    opacity: 1 !important;
+    transform: none !important;
+    font-size: 7px;
+  }
+  .strip-caption {
+    font-size: 7px !important;
+    letter-spacing: 0.7px !important;
+  }
+  .social-section {
+    padding-top: 40px !important;
+  }
+  .social-grid {
+    gap: 12px !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  .portrait-caption {
+    padding: 45px 12px 12px !important;
+  }
+  .portrait-caption h3 {
+    font-size: 20px !important;
+  }
+  .portrait-caption .mono {
+    font-size: 7px !important;
+    letter-spacing: 0.3px !important;
+  }
+  .portrait-caption > svg {
+    right: 10px !important;
+    bottom: 12px !important;
+    width: 16px !important;
+  }
+  .portrait-caption > .mono:first-child {
+    padding: 3px 4px !important;
+  }
+  .studio-grid {
+    grid-template-columns: 1fr !important;
+    gap: 35px !important;
+  }
+  .studio-grid h2 {
+    max-width: 500px !important;
+  }
+  .studio-copy > p {
+    font-size: 14px !important;
+  }
+  .spec-sheet {
+    padding: 23px !important;
+    margin-top: 25px !important;
+  }
+  .service-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+  .service-grid h3 {
+    font-size: 27px !important;
+    max-width: 100% !important;
+  }
+  .service-number {
+    margin-bottom: 20px !important;
+  }
+  .service-grid p {
+    max-width: 550px;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+  .contact-grid h2 {
+    max-width: 490px !important;
+  }
+  .contact-email {
+    font-size: 27px !important;
+  }
+  .response-time {
+    font-size: 8px !important;
+  }
+  .brief-guidance {
+    margin-top: 30px !important;
+  }
+  .brief-form input,
+  .brief-form select,
+  .brief-form textarea {
+    font-size: 13px !important;
+  }
+  .footer-top {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 30px 15px !important;
+  }
+  .footer-top > div:first-child {
+    grid-column: 1/-1;
+  }
+  .site-footer {
+    padding: 50px 5% 22px !important;
+  }
+  .footer-top > div:not(:first-child) > a,
+  .footer-top > div > p.mono {
+    font-size: 8px !important;
+    letter-spacing: 0.6px !important;
+  }
+  .footer-label {
+    font-size: 8px !important;
+    letter-spacing: 1px !important;
+  }
+  .footer-bottom {
+    font-size: 7px !important;
+    letter-spacing: 0.5px !important;
+    gap: 20px !important;
+    margin-top: 40px !important;
+  }
+  .case-hero {
+    height: 440px !important;
+  }
+  .case-hero > main {
+    padding: 30px 5% !important;
+  }
+  .case-hero h1 {
+    font-size: 58px !important;
+    margin-right: 0 !important;
+    margin-bottom: 65px !important;
+  }
+  .case-hero aside {
+    right: 5% !important;
+    bottom: 20px !important;
+    line-height: 1.5 !important;
+  }
+  .case-intro {
+    grid-template-columns: 1fr !important;
+    gap: 35px !important;
+  }
+  .case-intro > div > p {
+    font-size: 19px !important;
+  }
+  .case-film {
+    padding-top: 0 !important;
+    padding-bottom: 20px !important;
+  }
+  .case-breakdown {
+    padding-top: 25px !important;
+  }
+  .content-block p {
+    font-size: 15px !important;
+  }
+  .next-project h2 > svg {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .preview-banner {
+    top: 64px !important;
+  }
+  .toast {
+    bottom: 15px !important;
+    right: 15px !important;
+    left: 15px;
+    max-width: none !important;
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 480px) {
+  .social-grid {
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+  }
+  .portrait .project-art {
+    aspect-ratio: 4/4.7 !important;
+  }
+  .portrait-caption {
+    padding: 55px 22px 24px !important;
+  }
+  .portrait-caption h3 {
+    font-size: 28px !important;
+  }
+  .portrait-caption .mono {
+    font-size: 9px !important;
+    letter-spacing: 1px !important;
+  }
+  .portrait-caption > svg {
+    right: 22px !important;
+    bottom: 25px !important;
+    width: 24px !important;
+  }
+  .form-pair {
+    gap: 20px !important;
+  }
+  .section h2 {
+    font-size: 37px !important;
+  }
+  .block-gallery,
+  .block-projects {
+    grid-template-columns: 1fr !important;
+  }
+  .hero h1 {
+    font-size: 23vw !important;
+  }
+  .hero-meta {
+    font-size: 7px !important;
+  }
+  .hero-title {
+    margin-top: 95px !important;
+  }
+  .hero {
+    height: 740px !important;
+  }
+  .hero-description {
+    font-size: 14px !important;
+    max-width: 330px !important;
+  }
+  .header-right > a {
+    font-size: 7px !important;
+  }
+  .section-heading > div > p {
+    max-width: 240px !important;
+  }
+  .strip-controls button {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .footer-top > div:last-child {
+    grid-column: 1/-1;
+  }
+  .hero-status {
+    letter-spacing: 1px !important;
+  }
+  .case-hero h1 {
+    font-size: 48px !important;
+  }
+  .spec-sheet dl > div {
+    grid-template-columns: 90px 1fr !important;
+    gap: 10px !important;
+  }
+}
